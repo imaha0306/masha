@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Profile Icon Style */
+.profile-icon {
+    position: absolute;
+    top: 150px;8
+    right: 175px;
+    width: 175px; /* Adjust size */
+    height: 150px;
+    border-radius: 50%; /* Circular shape */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero .btn {
+    background: #ffffff;
+    color: #007bff;
+    padding: 0.8rem 1.5rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero .btn:hover {
+    background: #0056b3;
+    color: white;
+}
+
+/* Sections */
+.section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.section h2 {
+    color: #007bff;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
